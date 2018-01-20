@@ -39,7 +39,10 @@
         android:layout_height="wrap_content"
         android:text="@string/error_message"
         android:visibility="invisible"
-        android:id="@+id/error_message"/>
+        android:id="@+id/error_message"
+        android:padding="16dp"
+        android:textSize="20sp"
+        />
 
     <!--TODO (12) Add a ProgressBar to show the user content is loading-->
     <!--TODO (13) Make the width and height of the ProgressBar 42dp-->
